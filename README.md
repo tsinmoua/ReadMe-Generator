@@ -1,8 +1,9 @@
 
 # ReadMe Generator
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description 
-To create a ReadMe Generator, generating a standard and professional README.md file I can use for future projects
+To create a standard and professional ReadMe for all my projects
 <!-- What was your motivation? Why did you build this project? (Note: The answer is not "Because it was a homework assignment.") What problem does it solve? What did you learn? What makes your project stand out? -->
 
 ## Table of Contents
@@ -16,15 +17,26 @@ To create a ReadMe Generator, generating a standard and professional README.md f
 * [Questions](#questions)
 
 ## Installation
+To install, run the following in your command line:
+```
 npm i
+```
 <!-- What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running. -->
 
 ## Test Instructions
+To test, run the following in your command line:
+```
 npm test
+```
 <!-- Go the extra mile and write tests for your application. Then provide examples on how to run them. -->
 
 ## Usage Information
-In the command line, run "node index"
+To use the application, run the following in your command line:
+```
+node index.js
+```
+
+![Image of Terminal Command](./assets/terminalCommand.jpg)
 <!-- Provide instructions and examples for use. Include screenshots as needed.  -->
 
 ## Contributions
@@ -32,7 +44,7 @@ NA
 <!-- If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own. -->
 
 ## License
-MIT
+This project is licensed under the MIT license.
 <!-- The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/) -->
 
 ## Credits
@@ -42,7 +54,8 @@ If you used any third-party assets that require attribution, list the creators w
 If you followed tutorials, include links to those here as well. -->
 
 ## Questions
-If you have any questions, please contact me at tsinmoua@gmail.com.You can find more of my work at https://github.com/tsinmoua
+If you have any questions, please contact me at tsinmoua@gmail.com.  
+You can find more of my work at https://github.com/tsinmoua
 
 <!-- ## Badges
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)

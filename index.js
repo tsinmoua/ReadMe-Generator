@@ -73,13 +73,14 @@ const readMeGenerator = (data) => {
     haveLicense = license => {
         if (license !== "None") {
             return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`
+            
         }
         return ''
     }
 
     return `
 # ${data.title}
-${havelicense(data.license)}
+${haveLicense(data.license)}
 
 ## Description 
 ${data.description}
@@ -128,7 +129,7 @@ If you used any third-party assets that require attribution, list the creators w
 If you followed tutorials, include links to those here as well. -->
 
 ## Questions
-If you have any questions, please contact me at ${data.email}.\
+If you have any questions, please contact me at ${data.email}.  
 You can find more of my work at https://github.com/${data.github}
 
 <!-- ## Badges
